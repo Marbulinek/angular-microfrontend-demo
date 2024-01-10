@@ -4,11 +4,11 @@ import { ShareComLibComponent } from './share-com-lib.component';
 import { ShareComLibService } from './share-com-lib.service';
 
 @NgModule({
-  declarations: [ShareComLibComponent],
+  declarations: [],
   imports: [
     CommonModule
   ],
-  exports: [ShareComLibComponent]
+  exports: []
 })
 export class ShareComLibModule {
   static forRoot(): ModuleWithProviders<ShareComLibModule> {

@@ -246,6 +246,7 @@ ng build
 
 
 # Link module into shell
+Npm link should be not more needed. It will be done automatically by npm install command.
 ```
 npm link ..\com-lib\dist\share-com-lib
 ```

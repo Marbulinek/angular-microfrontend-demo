@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "pwa": "http-server -p 8080 -o -c-1 dist/shell",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -20,9 +21,11 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "@angular/service-worker": "^17.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2",
+    "share-com-lib-link": "file:../com-lib/dist/share-com-lib",
     "share-com-lib": "0.0.1"
   },
   "devDependencies": {
@@ -30,6 +33,7 @@
     "@angular/cli": "^17.0.5",
     "@angular/compiler-cli": "^17.0.0",
     "@types/jasmine": "~5.1.0",
+    "http-server": "^14.1.1",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -38,5 +42,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ngx-build-plus": "^17.0.0",
     "typescript": "~5.2.2"
+  },
+  "peerDependencies": {
+    "share-com-lib": "0.0.1"
   }
 }

@@ -11,6 +11,6 @@ export class HomeShellComponent {
   }
 
   sendData(): void{
-    this.shareComLib.addName("Lukáš");
+    this.shareComLib.addName("Lukas");
   }
 }
