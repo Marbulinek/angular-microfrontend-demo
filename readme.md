@@ -1,4 +1,5 @@
-# Remote application
+# Angular Module Federation
+## Remote application
 ## create "remote" application
 ```
 ng new remote --standalone false
