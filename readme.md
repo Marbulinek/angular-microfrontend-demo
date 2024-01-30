@@ -8,7 +8,7 @@ cd remote
 
 ## add module federation library
 ```
-ng add @angular-architects/module-federation@14.3.10 --project remote --port 4201 --type remote
+ng add @angular-architects/module-federation --project remote --port 4201 --type remote
 ```
 
 ## create new module and component
